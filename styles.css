@@ -119,8 +119,7 @@ section p {
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    margin: 152px auto;
-    /* padding: 152px 560px 151px 560px; */
+  body {
+    padding: 152px 560px 151px 560px;
   }
 }
