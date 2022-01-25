@@ -1,0 +1,119 @@
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  padding: 0;
+}
+
+html {
+  background-color: #fff;
+}
+/* set up the body */
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+  line-height: 1.2;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 85px 28px;
+  font-size: 15px;
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container {
+  background: hsl(0, 0%, 100%);
+  padding: 16px 16px 40px 16px;
+  margin: 0 auto;
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+header img {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+section h1 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27.72px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 16px;
+}
+
+section p {
+  font-weight: 400;
+  text-align: center;
+  line-height: 18.9px;
+  letter-spacing: 0.19px;
+  padding: 0 16px;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
