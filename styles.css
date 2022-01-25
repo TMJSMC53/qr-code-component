@@ -43,7 +43,7 @@ body {
   font-family: "Outfit", sans-serif;
   background: hsl(212, 45%, 89%);
   line-height: 1.2;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   overflow-x: hidden;
   padding: 85px 28px;
   font-size: 15px;
@@ -116,10 +116,4 @@ section p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    padding: 152px 560px 151px 560px;
-  }
 }
